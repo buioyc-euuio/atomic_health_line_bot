@@ -1,6 +1,6 @@
 # atomic_health_line_bot
 記得要把gemini 的 API 、line channel加到app_colab裡面
-
+54 92 93行
 
 # 發布方法：
 ngrok
