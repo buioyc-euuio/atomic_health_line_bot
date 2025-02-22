@@ -89,8 +89,8 @@ def glucose_graph(client_id, imgpath):
 	return upload_image.link
 
 app = Flask(__name__)
-configuration = Configuration(access_token='PDk06iwqPcO0+ky00Kt6sMWX3QmktMI4GKM1GQLjxt5Y3KZ8fUaARp1SFE9cCqdSaEFaAoL0jKvSKOc91p9SNfVVUFUY3zMu+aQicuJYTERN0LLtdA9VaBg6iPAlSPOSV9viJ+nlkyC1EA2ZyJgD6AdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('8458e379374f6f522d4d080d32ba8fcf')
+configuration = Configuration(access_token='ACCESS_TOKEN')
+handler = WebhookHandler('WebhookHandler')
 ngrok_url = "https://3429-140-113-136-212.ngrok-free.app"
 @app.route("/callback", methods=['POST'])
 def callback():
