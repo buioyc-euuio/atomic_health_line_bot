@@ -50,7 +50,7 @@ global mode
 mode = "chat"
 #init()
 # 設定 Gemini API Key（請填入你的 Key）
-API_KEY = "AIzaSyBXsSAGWzwahc4g8V-pxMLTlcKTcilVf_E"
+API_KEY = "你的gemini API KEY"
 genai.configure(api_key=API_KEY)
 
 # 建立 Gemini 模型
